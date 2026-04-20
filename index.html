@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="mn">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMM Panel - Олон нийтийн мэдээллийн хэрэгслийн өсөлт</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app">
+      <nav>
+        <div class="logo">Social<span>Marketing</span></div>
+        <div class="nav-links">
+        </div>
+      </nav>
+
+      <section class="hero animate-fade">
+        <h1>Сошиал медиа дахь<br /><span>Нөлөөгөө Тэдгээ</span></h1>
+        <p>Инстаграм-ын дээд зэрэглэлийн өсөлтийн үйлчилгээ. Чанарын баталгаа, 24/7 дэмжлэг.</p>
+        <div style="margin-top: 2rem;">
+          <a href="#order" class="btn" style="padding: 1rem 2rem;">Одоо Эхлэх</a>
+        </div>
+      </section>
+
+      <section id="services">
+        <h2 style="text-align: center; margin-bottom: 3rem;">Манай Үйлчилгээнүүд</h2>
+        <div class="services-grid">
+          <!-- Instagram Card -->
+          <div class="glass-card service-card">
+            <div class="service-icon">📸</div>
+            <h3>Instagram Өсөлт</h3>
+            <p>Бодит дагагч, лайк болон үзэлтүүдийг ашиглан өөрийн IG хаягийг алдартай болго.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="guide" style="background: rgba(30, 41, 59, 0.3); border-radius: 40px; padding: 4rem 2rem;">
+        <h2 style="text-align: center; margin-bottom: 3rem;">Хэрхэн захиалах вэ?</h2>
+        <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+          <div class="glass-card" style="text-align: center;">
+            <div style="font-size: 2rem; color: var(--primary); margin-bottom: 1rem;">01.</div>
+            <h3>Үйлчилгээ сонгох</h3>
+            <p style="font-size: 0.9rem;">Авахыг хүссэн үйлчилгээгээ сонгоно.</p>
+          </div>
+          <div class="glass-card" style="text-align: center;">
+            <div style="font-size: 2rem; color: var(--primary); margin-bottom: 1rem;">02.</div>
+            <h3>Мэдээлэл оруулах</h3>
+            <p style="font-size: 0.9rem;">Өөрийн профайл линк болон авах тоо ширхэгээ оруулна.</p>
+          </div>
+          <div class="glass-card" style="text-align: center;">
+            <div style="font-size: 2rem; color: var(--primary); margin-bottom: 1rem;">03.</div>
+            <h3>Төлбөр шилжүүлэх</h3>
+            <p style="font-size: 0.9rem;">Гарч ирэх данс руу төлбөрөө шилжүүлээд "Төлбөр төлсөн" товч дарна.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews">
+        <h2 style="text-align: center; margin-bottom: 3rem;">Хэрэглэгчдийн сэтгэгдэл</h2>
+        <div class="services-grid">
+          <div class="glass-card">
+            <div style="color: gold; margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+            <p style="font-style: italic; font-size: 0.95rem;">"Захиалга өгснөөс хойш 10 минутын дотор л дагагч нар маань орж ирж эхэлсэн. Үнэхээр хурдан байгаа боломжийн юм байна!"</p>
+            <div style="margin-top: 1rem; font-weight: 700; font-size: 0.8rem; color: var(--primary);">- Ариунболд.Б</div>
+          </div>
+          <div class="glass-card">
+            <div style="color: gold; margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+            <p style="font-style: italic; font-size: 0.95rem;">"Дизайн нь их гоё юм аа. Ойлгомжтой, амархан. Дахиж заавал үйлчлүүлнэ."</p>
+            <div style="margin-top: 1rem; font-weight: 700; font-size: 0.8rem; color: var(--primary);">- Болороо.Т</div>
+          </div>
+          <div class="glass-card">
+            <div style="color: gold; margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+            <p style="font-style: italic; font-size: 0.95rem;">"Найдвартай газар байна. Төлбөрөө шилжүүлээд л мессеж нь ирээд захиалга нь эхэлчихсэн."</p>
+            <div style="margin-top: 1rem; font-weight: 700; font-size: 0.8rem; color: var(--primary);">- Энхжин.Г</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="order">
+        <div class="glass-card" style="max-width: 600px; margin: 0 auto; text-align: center;">
+          <h2 style="margin-bottom: 2rem;">Өсөхөд Бэлэн үү?</h2>
+          <form class="order-form" id="smm-order-form">
+            <div class="input-group">
+              <label for="platform">Платформ Сонгох</label>
+              <select id="platform" required>
+                <option value="" disabled selected>Платформ сонгоно уу...</option>
+                <option value="instagram">Instagram</option>
+              </select>
+            </div>
+
+            <div class="input-group">
+              <label for="service">Үйлчилгээ Сонгох</label>
+              <select id="service" required>
+                <option value="" disabled selected>Эхлээд платформаа сонгоно уу...</option>
+              </select>
+            </div>
+
+            <div class="input-group">
+              <label for="link">Профайл эсвэл Пост линк</label>
+              <input type="url" id="link" placeholder="https://instagram.com/your-username" required />
+            </div>
+
+            <div class="input-group">
+              <label for="quantity">Тоо Ширхэг</label>
+              <input type="number" id="quantity" placeholder="Min 100, Max 10,000" min="100" max="10000" step="100" required />
+            </div>
+
+            <div style="margin: 1rem 0; font-weight: 700; color: #fff;">
+              Нийт Төлөх Үнэ: <span id="display-price" style="color: var(--accent); font-size: 1.5rem;">0₮</span>
+            </div>
+
+            <button type="submit" class="btn" id="submit-btn" style="width: 100%;">Захиалга Хийх</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Payment Modal -->
+      <div id="payment-modal" class="modal-overlay">
+        <div class="modal-content">
+          <span class="modal-close" id="close-modal">&times;</span>
+          <h2 style="color: var(--primary);">Төлбөр Төлөх</h2>
+          <p>Захиалгаа баталгаажуулахын тулд доорх данс руу төлбөрөө шилжүүлнэ үү.</p>
+          
+          <div class="payment-details">
+            <div>Банк: <span>Хаан Банк</span></div>
+            <div>Дансны Дугаар: <span>5084590801</span></div>
+            <div>Хүлээн авагч: <span>SMM Panel</span></div>
+            <div>Шилжүүлэх дүн: <span id="modal-total-price">0₮</span></div>
+            <div>Гүйлгээний утга: <span id="order-id-placeholder" style="font-size: 1.1rem; color: var(--accent);">IG_NAME</span></div>
+          </div>
+
+          <button class="btn" id="confirm-payment" style="width: 100%;">Төлбөрөө төлсөн</button>
+          <p style="font-size: 0.8rem; margin-top: 1rem; color: #64748b;">* Төлбөр шалгагдсаны дараа захиалга 5-10 минутын дотор эхэлнэ.</p>
+        </div>
+      </div>
+
+      <footer style="text-align: center; padding: 3rem 0; color: #64748b; border-top: 1px solid var(--border-color); margin-top: 5rem;">
+        <p style="margin-bottom: 0.5rem;"><a href="https://www.instagram.com/social_marketing_agent/" target="_blank" style="color: var(--primary); text-decoration: none;">📸 @social_marketing_agent</a></p>
+        <p>© 2026 Social Marketing Agent. Өсөлтөд зориулан бүтээв ❤️.</p>
+      </footer>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

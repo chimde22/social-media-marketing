@@ -1,0 +1,18 @@
+{
+  "name": "social_media_marketing",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "vite": "^8.0.9"
+  }
+}
