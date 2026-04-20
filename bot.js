@@ -1,3 +1,4 @@
+import { Telegraf, Markup, Scenes, session } from 'telegraf';
 import fs from 'fs';
 import 'dotenv/config';
 // Load initial data
